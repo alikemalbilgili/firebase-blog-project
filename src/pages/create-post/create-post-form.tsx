@@ -22,7 +22,7 @@ export const CreatePostForm = () => {
       .string()
       .required("You must add a description")
       .min(10)
-      .max(500),
+      .max(1500),
   });
   const {
     register,
